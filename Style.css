@@ -1,3 +1,7 @@
+html{
+  overflow-x: hidden;
+}
+
 body{
     display: flex;
     flex-direction: column;
@@ -282,7 +286,6 @@ background-color: red;
 .grid-container2{
   height: auto;
   width: 1520px;
-  max-width: 1920px;
   display: grid;
   grid-template-rows: auto auto;
   grid-template-columns: 50% 50%;
